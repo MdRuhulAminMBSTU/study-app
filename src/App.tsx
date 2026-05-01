@@ -12,7 +12,7 @@ function parseTable(lines: string[]): React.ReactNode | null {
     if (!trimmed) continue
     if (/^[─┑▒▓│┃]{3,}$/.test(trimmed)) continue
 
-    let processed = line
+    const processed = line
       .replace(borderChars, '')
       .replace(/║/g, '│')
       .replace(/▕/g, '│')
