@@ -686,7 +686,7 @@ Components (7-tuple): M = (Q, Σ, Γ, δ, q₀, B, F)
 • Γ = tape alphabet (includes Σ and blank symbol B)
 • δ = transition function: Q × Γ → Q × Γ × {L, R}
 • q₀ = start state (∈ Q)
-• B = blank symbol (∈ Γ \ Σ)
+• B = blank symbol (∈ Γ  Σ)
 • F = set of accepting/final states (⊆ Q)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -958,7 +958,7 @@ Inclusion: Regular ⊂ Context-Free ⊂ Context-Sensitive ⊂ Recursive ⊂ RE
 • Γ = টেপ অ্যালফাবেট (B এবং Σ অন্তর্ভুক্ত)
 • δ = ট্রানজিশন ফাংশন: Q × Γ → Q × Γ × {L, R}
 • q₀ = শুরু অবস্থা (∈ Q)
-• B = ফাঁকা প্রতীক (∈ Γ \ Σ)
+• B = ফাঁকা প্রতীক (∈ Γ  Σ)
 • F = গ্রহণকারী/চূড়ান্ত অবস্থার সেট (⊆ Q)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
